@@ -1,0 +1,49 @@
+*{
+ padding: 0;  
+ margin: 0; 
+ box-sizing: border-box;
+ 
+}
+
+span{
+    color: orange;
+}
+
+body{
+   padding: 10px;
+   margin: 20px;
+   width: 100%;
+
+}
+
+.nav{
+    display: flex;
+    margin: 20px;
+}
+
+.nav ul{
+    display: flex;
+    margin-right: 5opx;
+    margin-top: 50px;
+    list-style: none;
+
+}
+
+.prop{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.line1 ,.line2{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 27%;
+}
+
+.available, .small, .medium, .large, .x-large, .huge{
+
+    
+}
