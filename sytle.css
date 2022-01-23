@@ -16,34 +16,219 @@ body{
 
 }
 
-.nav{
-    display: flex;
-    margin: 20px;
+header{
+
+    width: 100%;
 }
 
-.nav ul{
+.dec{
+
     display: flex;
-    margin-right: 5opx;
-    margin-top: 50px;
+}
+
+.topa{
+    display: flex;
+    
+    width: 100%;
+}
+
+
+
+.nav{
+    flex-grow:3;
+    
+    justify-content: space-between;
+
+    
+}
+
+.nav ul li{
+
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+
+.lg{
+flex-grow: 1;
+
+}
+
+.thema{
+
+flex-grow: 1;
+}
+.nav ul{
+    
+    display: flex;
+    justify-content:center;
+    margin: 30px;
+
     list-style: none;
+
+    
+
+}
+
+
+
+section{
+    margin: 20px;
+    padding: 50px;
+}
+
+.inline{
+
+    background-color: yellow;
+    
+}
+
+.wording p{
+
+    margin: 50px;
+    font-size: 40px;
+}
+
+
+.quality, .delicious, .delivery{
+
+
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+    height: 300px;
+    font-size: 50 px;
+    
+    
+
+
+}
+
+.delivery{
+
+    height: 450px;
+    font-size: 70px;
+    text-align: center;
+    align-self: center;
+    line-height: 50px;
+    
+}
+.delivery h2{
+
+font-size: 30px;
 
 }
 
 .prop{
+    margin: 50px;
+    padding: 50px;
 
     display: flex;
     justify-content: space-between;
 }
+.prop h2{
+
+    margin: 10px;
+}
+.prop p{
+
+    font-size: 20px;
+}
+
+#dis{
+
+    text-align: center;
+    font-size: 50px;
+    text-decoration:none;
+}
+
+.available, .small, .medium, .large, .x-large, .huge{
+
+
+margin: 5px;
+    padding: 30px;
+    border: 1px solid darkgray;
+    border-radius: 70px;
+    height: 100x;
+    font-size: 50 px;
+
+    
+}
+
 
 .line1 ,.line2{
 
     display: flex;
     justify-content: space-between;
     margin: 50px;
-    width: 27%;
+    max-width:100%;
 }
 
-.available, .small, .medium, .large, .x-large, .huge{
+
+.mobile-phone{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: orange;
+    
+
+
+}
+
+.general{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+#email{
+
+height: 50px;
+
+}
+
+#green{
+
+background-color: darkorange;
+height: 50px;
+width: 100px;
+border: 2px solid red;
+border-radius: 30px;
+
+
+}
+
+
+
+
+
+.burger{
+
+    display: flex;
+}
+
+.decker{
+    margin: 50px;
+
+    display: flex;
+}
+.text p, h1{
 
     
+    font-size: 40px;
+}
+
+.images img{
+
+    display:block;
+}
+
+.up{
+
+    margin-top:0;
 }
