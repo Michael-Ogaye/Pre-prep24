@@ -237,6 +237,7 @@ border-radius: 30px;
     margin: 100px;
 
     display: flex;
+    justify-content: space-between;
 }
 .text p, h1{
 
