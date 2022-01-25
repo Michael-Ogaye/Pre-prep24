@@ -28,8 +28,23 @@ header{
 
 .topa{
     display: flex;
-    
+    justify-content: space-between;
     width: 100%;
+}
+.thema h1{
+
+    margin-left: 0px;
+}
+
+#together{
+
+    display: flex;
+    justify-content: start;
+}
+
+.wording p,.wording h1{
+
+    margin-left: 50px;
 }
 
 
@@ -80,7 +95,7 @@ section{
 
 .inline{
 
-    background-color: yellow;
+    
     
 }
 
@@ -148,11 +163,13 @@ font-size: 30px;
 
 
 margin: 5px;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid darkgray;
     border-radius: 70px;
-    height: 100x;
     font-size: 50 px;
+    width: 500px;
+    align-items: center;
+    background-color: lightskyblue;
 
     
 }
@@ -177,13 +194,17 @@ margin: 5px;
 
 
 }
+.ph1,ph2(
 
-.general{
+)
 
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
+
+
+    .general{
+
+        display:flex;
+        j
+    }
 
 
 #email{
@@ -213,7 +234,7 @@ border-radius: 30px;
 }
 
 .decker{
-    margin: 50px;
+    margin: 100px;
 
     display: flex;
 }
@@ -232,3 +253,26 @@ border-radius: 30px;
 
     margin-top:0;
 }
+.cax{
+
+background-color: orange;
+width: 100%;
+background: linear-gradient(100deg, white 50%, orange 50%);
+    
+}
+
+.inline img{
+
+
+    float: right;
+}
+
+.orange{
+
+color: orange;
+}
+
+.images{
+    float:right ;
+}
+
