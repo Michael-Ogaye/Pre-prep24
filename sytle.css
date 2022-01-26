@@ -183,10 +183,16 @@ margin: 5px;
     justify-content: space-between;
     width: 100%;
     background-color: orange;
+    margin-bottom: 0;
     
     
 
 
+}
+
+.playstore{
+
+    margin-top: 100px;
 }
 .ph1,ph2{
 
@@ -202,6 +208,8 @@ margin: 5px;
 
         display:flex;
         justify-content: space-between;
+        
+        
         
     }
 
@@ -244,6 +252,10 @@ border-radius: 30px;
 
     display: flex;
     justify-content: space-between;
+
+    height: 700px;
+    
+    background-color: ivory;
 }
 .text p, h1{
 
@@ -281,6 +293,9 @@ color: orange;
 
 .images{
     float:right ;
+    position: relative;
+
+
 }
 
 .discover{
@@ -288,3 +303,63 @@ color: orange;
     margin: 30px;
 }
 
+.up{
+position: absolute;
+right: 400px;
+top: 200px;
+
+}
+
+.low{
+position: absolute;
+right: 250px;
+
+
+}
+.text{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.burger, .sitemap, .email{
+
+
+    margin: 100px;
+}
+
+.downa{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+
+.icon ul li{
+
+    list-style: none;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.icon ul{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.name{
+
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.copyright{
+
+
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.fa fa-facebook-official, .fa fa-instagram, .fa fa-twitter{
+
+    font: 100;
+}
