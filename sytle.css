@@ -103,7 +103,7 @@ section{
 
     margin: 50px;
     padding: 30px;
-    border: 1px solid darkgray;
+    border: 1px solid maroon;
     border-radius: 30px;
     height: 300px;
     font-size: 50 px;
@@ -124,10 +124,13 @@ section{
     
 }
 .delivery h2{
-
+color: maroon;
 font-size: 30px;
 
 }
+
+.quality h2{color: maroon;}
+.delicious h2{ color: maroon;}
 
 .prop{
     margin: 50px;
@@ -151,7 +154,11 @@ font-size: 30px;
     font-size: 50px;
     text-decoration:none;
 }
+ 
+#dis :hover{
 
+    border-bottom: 10px solid red;
+}
 .available, .small, .medium, .large, .x-large, .huge{
 
 
@@ -180,18 +187,21 @@ margin: 5px;
 .mobile-phone{
 
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    width: 90vw;
     background-color: orange;
-    margin-bottom: 0;
-    
+    height: 80vh;
     
 
 
 }
 
-.playstore{
+.ph1 img, .ph2 img{width: 300px;}
+.ph2{margin-right: 20px;}
 
+.playstore{
+margin-left: 20px;
     margin-top: 100px;
 }
 .ph1,ph2{
@@ -214,7 +224,7 @@ margin: 5px;
     }
 
 
-    .sitemap{
+    .sitemap ul li{
 
         list-style: none;
         
@@ -226,6 +236,7 @@ margin: 5px;
 height: 50px;
 
 }
+.email p{margin-bottom: 20px;}
 
 #green{
 
@@ -359,7 +370,25 @@ right: 250px;
     margin-left: 20px;
 }
 
-.fa fa-facebook-official, .fa fa-instagram, .fa fa-twitter{
+.wording button{
+padding: 20px;
+margin-left: 200px;
+margin-top: 50px;
+border-radius: 30px 30px 0 30px;
+background-color: orange;
+border: none;
+color: white;
 
-    font: 100;
+}
+
+.prop img{
+
+    height: 50px;
+    width: 50px;
+}
+
+.list :first-child{
+
+    border-bottom: 8px solid red;
+    border-radius: 10px;
 }
