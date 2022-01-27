@@ -431,7 +431,7 @@ background-color: purple;
 
  .list li :last-child{
      font-size: 40px;
-     color: blue;
+     color: gray;
  }
 
  
