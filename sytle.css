@@ -169,7 +169,9 @@ margin: 5px;
     font-size: 50 px;
     width: 500px;
     background-color: lightskyblue;
+    opacity: 0.8;
     text-align: center;
+    box-shadow: 5px 10px 5px;
 
     
 }
@@ -392,3 +394,19 @@ color: white;
     border-bottom: 8px solid red;
     border-radius: 10px;
 }
+.carta{
+    display: flex;
+    justify-content: space-between;
+}
+ .carta button{
+
+    margin-right: 70px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100px;
+    height: 60px;
+    color: grey;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+ }
