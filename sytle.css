@@ -247,6 +247,7 @@ height: 50px;
 width: 100px;
 border: 2px solid red;
 border-radius: 30px;
+border: none;
 
 
 }
@@ -382,6 +383,13 @@ border: none;
 color: white;
 
 }
+.indigo :hover{
+
+    background-color: indigo;
+}
+
+
+
 
 .prop img{
 
@@ -402,7 +410,7 @@ color: white;
 
     margin-right: 70px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 10px;
     width: 100px;
     height: 60px;
     color: grey;
@@ -410,3 +418,20 @@ color: white;
     border-radius: 20px;
     border: none;
  }
+
+ .carta button :hover{
+     background-color: indigo;
+     transform: rotate(70deg);
+ }
+ .sucribe :hover{
+     
+
+background-color: purple;
+ }
+
+ .list li :last-child{
+     font-size: 40px;
+     color: blue;
+ }
+
+ 
