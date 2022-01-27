@@ -6,8 +6,8 @@
 ## Table of Content
 
 + [Description](#description)
-+ [Installation Requirement](# Requisites)
-+ [Technology Used](#technology-used)
++ [Installation Requirement]( Requisites)
++ [Technology Used](technology-used)
 + [Live-links] (#Live links)
 + [Reference](#reference)
 + [Licence](#licence)
